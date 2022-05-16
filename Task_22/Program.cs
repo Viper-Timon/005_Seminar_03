@@ -10,11 +10,11 @@ Console.WriteLine("Введите число N");
 int n = int.Parse(Console.ReadLine());
 int index = 1;
 
-while (index < n)
+while (index <= n)
 {
     int result = index * index;
+    Console.WriteLine($"{index, 10} | {result, 10}");
     index++;
-    Console.Write($"{result}, ");
 }
 Console.WriteLine();
 Console.WriteLine("Квадраты всех чисел от 1 до N");
