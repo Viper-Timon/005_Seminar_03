@@ -11,10 +11,41 @@
 // else Console.WriteLine ("Введите координаты отличные от 0");
 
 
-Console.WriteLine("Введите номер диапазона от 1 до 4");
+// Console.WriteLine("Введите номер диапазона от 1 до 4");
+// int diap = int.Parse(Console.ReadLine());
+// if (diap == 1) Console.WriteLine("Соответствует значениям x > 0 и y > 0");
+// else if (diap == 2) Console.WriteLine("Соответствует значениям x < 0 и y > 0");
+// else if (diap == 3) Console.WriteLine("Соответствует значениям x < 0 и y < 0");
+// else if (diap == 4) Console.WriteLine("Соответствует значениям x > 0 и  < 0");
+// else Console.WriteLine("Вы ввели неверный номер диапазона");
+
+
+//через Метод
+void FindDiap(int quarter) 
+{
+    if (quarter == 1) 
+    {
+        string str1 = "x > 0 и y > 0";
+    }
+//Console.WriteLine("Соответствует значениям x > 0 и y > 0");
+    else if (quarter == 2) 
+    {
+        string str1 = "x < 0 и y > 0";
+    }
+    else if (quarter == 3) 
+    {
+        string str1 = "x < 0 и y < 0";
+    }
+    else if (quarter == 4) 
+    {
+        string str1 = "x > 0 и  < 0";
+    }
+    else string str1 = "Вы ввели неверный номер диапазона";
+
+//else if (quarter == 2) Console.WriteLine("Соответствует значениям x < 0 и y > 0");
+// else if (quarter == 3) Console.WriteLine("Соответствует значениям x < 0 и y < 0");
+// else if (quarter == 4) Console.WriteLine("Соответствует значениям x > 0 и  < 0");
+// else Console.WriteLine("Вы ввели неверный номер диапазона");
+}
 int diap = int.Parse(Console.ReadLine());
-if (diap == 1) Console.WriteLine("Соотетствует значениям x > 0 и y > 0");
-else if (diap == 2) Console.WriteLine("Соотетствует значениям x < 0 и y > 0");
-else if (diap == 3) Console.WriteLine("Соотетствует значениям x < 0 и y < 0");
-else if (diap == 4) Console.WriteLine("Соотетствует значениям x > 0 и  < 0");
-else Console.WriteLine("Вы ввели неверный номер диапазона");
+string 
