@@ -6,7 +6,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 
-Console.WriteLine("Введите N -> ");
+Console.Write("Введите N -> ");
 int n = int.Parse(Console.ReadLine());
 for (int i =1; i <= n; i++)
 {
